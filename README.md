@@ -11,5 +11,6 @@ Definições:
         Karma;
     Valor máx: 100
     
+   
     
         
