@@ -15,15 +15,15 @@ public class Character {
     private String name;
     private char gender;
     private int life; 
-    private ArrayList<Item> inventory; // InventÛrio
-    private int inventory_size; //Tamanho do InventÛrio
+    private ArrayList<Item> inventory; // Invent√≥rio
+    private int inventory_size; //Tamanho do Invent√≥rio
     private List<Quest> activeQuests; //Quests ativas 
-    private List<Quest> completedQuests; //Quests j· completadas
+    private List<Quest> completedQuests; //Quests j√° completadas
 
     public List<Quest> getCompletedQuests() {
 		return completedQuests;
 	}
-
+//teste
 	public void setCompletedQuests(List<Quest> completedQuests) {
 		this.completedQuests = completedQuests;
 	}
